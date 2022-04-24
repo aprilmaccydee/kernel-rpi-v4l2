@@ -71,7 +71,7 @@
 %global baserelease 1
 
 # RaspberryPi foundation git snapshot (short)
-%global rpi_gitshort e4cb65cf2
+%global rpi_gitshort 7aa66c086
 
 %global build_release %{baserelease}
 
@@ -114,7 +114,7 @@
 %if 0%{?released_kernel}
 
 # Do we have a -stable update to apply?
-%define stable_update 60
+%define stable_update 52
 
 # Set rpm version accordingly
 %if 0%{?stable_update}
